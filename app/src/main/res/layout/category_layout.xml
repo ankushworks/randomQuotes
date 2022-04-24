@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:rowCount="4"
+            android:columnCount="2"
+            android:paddingBottom="80dp"
+            >
+
+
+
+
+            <!--   Row 0     -->
+
+            <androidx.cardview.widget.CardView
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_width="150dp"
+                android:layout_height="190dp"
+                app:cardBackgroundColor="#294C90"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                app:cardCornerRadius="20dp"
+
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:background="@drawable/gradient_1"
+                    android:gravity="center"
+                    android:orientation="vertical"
+
+                    >
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Joy"
+                        android:textColor="@color/white"
+                        android:textSize="20dp"
+                        android:textAlignment="center"
+                        android:textStyle="bold"
+                        />
+
+                    <ImageView
+                        android:layout_marginTop="20dp"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/joy"
+                        android:background="@drawable/category_image_background"
+                        />
+
+
+                    '</LinearLayout>
+
+
+
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="20dp"
+
+                android:layout_width="150dp"
+                android:layout_height="210dp"
+                android:layout_row="0"
+                android:layout_column="1"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                app:cardCornerRadius="20dp"
+
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/gradient_2"
+                    android:gravity="center"
+                    android:orientation="vertical"
+
+                    >
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Events"
+                        android:textColor="@color/white"
+                        android:textSize="20dp"
+                        android:textAlignment="center"
+                        android:textStyle="bold"
+                        />
+
+                    <ImageView
+                        android:layout_marginTop="20dp"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/events"
+                        android:background="@drawable/category_image_background"
+                        />
+
+
+                    '</LinearLayout>
+
+
+
+
+
+            </androidx.cardview.widget.CardView>
+
+
+
+            <!--   Row 1     -->
+
+            <androidx.cardview.widget.CardView
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_width="150dp"
+                android:layout_height="190dp"
+                android:layout_row="1"
+                android:layout_column="0"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                app:cardCornerRadius="20dp"
+
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:background="@drawable/gradient_3"
+                    >
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Emotional"
+                        android:textColor="@color/white"
+                        android:textSize="20dp"
+                        android:textAlignment="center"
+                        android:textStyle="bold"
+                        />
+
+                    <ImageView
+                        android:layout_marginTop="20dp"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:padding="5dp"
+                        android:src="@drawable/emotional"
+                        android:background="@drawable/category_image_background"
+                        />
+
+
+                    '</LinearLayout>
+
+
+
+
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_width="150dp"
+                android:layout_height="210dp"
+                app:cardBackgroundColor="#294C90"
+                android:layout_row="1"
+                android:layout_column="1"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                app:cardCornerRadius="20dp"
+
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:background="@drawable/gradient_4"
+
+                    >
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Productivity"
+                        android:textColor="@color/white"
+                        android:textSize="20dp"
+                        android:textAlignment="center"
+                        android:textStyle="bold"
+                        />
+
+                    <ImageView
+                        android:layout_marginTop="20dp"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/joy"
+                        android:background="@drawable/category_image_background"
+                        />
+
+
+                    '</LinearLayout>
+
+
+
+
+
+            </androidx.cardview.widget.CardView>
+
+
+            <!--   Row 2     -->
+
+            <androidx.cardview.widget.CardView
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_width="150dp"
+                android:layout_height="190dp"
+                app:cardBackgroundColor="#294C90"
+                android:layout_row="2"
+                android:layout_column="0"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                app:cardCornerRadius="20dp"
+
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:background="@drawable/gradient_5"
+
+                    >
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Love"
+                        android:textColor="@color/white"
+                        android:textSize="20dp"
+                        android:textAlignment="center"
+                        android:textStyle="bold"
+                        />
+
+                    <ImageView
+                        android:layout_marginTop="20dp"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/joy"
+                        android:background="@drawable/category_image_background"
+                        />
+
+
+                    '</LinearLayout>
+
+
+
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_width="150dp"
+                android:layout_height="210dp"
+                app:cardBackgroundColor="#294C90"
+                android:layout_row="2"
+                android:layout_column="1"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                app:cardCornerRadius="20dp"
+
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:background="@drawable/gradient_6"
+
+                    >
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Focus"
+                        android:textColor="@color/white"
+                        android:textSize="20dp"
+                        android:textAlignment="center"
+                        android:textStyle="bold"
+                        />
+
+                    <ImageView
+                        android:layout_marginTop="20dp"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/joy"
+                        android:background="@drawable/category_image_background"
+                        />
+
+
+                    '</LinearLayout>
+
+
+
+
+
+            </androidx.cardview.widget.CardView>
+
+
+            <!--   Row 3     -->
+
+            <androidx.cardview.widget.CardView
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_width="150dp"
+                android:layout_height="190dp"
+                app:cardBackgroundColor="#294C90"
+                android:layout_row="3"
+                android:layout_column="0"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                app:cardCornerRadius="20dp"
+
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:background="@drawable/gradient_7"
+
+                    >
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Success"
+                        android:textColor="@color/white"
+                        android:textSize="20dp"
+                        android:textAlignment="center"
+                        android:textStyle="bold"
+                        />
+
+                    <ImageView
+                        android:layout_marginTop="20dp"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/joy"
+                        android:background="@drawable/category_image_background"
+                        />
+
+
+                    '</LinearLayout>
+
+
+
+
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_width="150dp"
+                android:layout_height="210dp"
+                app:cardBackgroundColor="#294C90"
+                android:layout_row="3"
+                android:layout_column="1"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                app:cardCornerRadius="20dp"
+
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:background="@drawable/gradient_8"
+
+                    >
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Work"
+                        android:textColor="@color/white"
+                        android:textSize="20dp"
+                        android:textAlignment="center"
+                        android:textStyle="bold"
+                        />
+
+                    <ImageView
+                        android:layout_marginTop="20dp"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/joy"
+                        android:background="@drawable/category_image_background"
+                        />
+
+
+                    '</LinearLayout>
+
+
+
+
+
+            </androidx.cardview.widget.CardView>
+
+            <!--   Row 4     -->
+
+
+
+
+
+
+
+        </GridLayout>
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>

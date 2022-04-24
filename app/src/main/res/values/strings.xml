@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Quotify</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="home_fragment">Hello Home fragment</string>
+    <string name="cate_fragment">Hello Category fragment</string>
+    <string name="fav_fragment">Hello Fav fragment</string>
+    <string name="Dummy_text">Loading...</string>
+    <string name="Loading">Random Person</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_margin="15dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardBackgroundColor="@color/semiTransparentColor"
+    app:cardElevation="0dp"
+    app:cardCornerRadius="20dp"
+    android:layout_gravity="center_vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical"
+            >
+
+            <ImageView
+                android:layout_marginStart="15dp"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:scaleX="-1"
+                android:scaleY="-1"
+                app:tint = "#454545"
+                android:src="@drawable/ic_quote" />
+
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/quotes_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="5dp"
+                android:background="@null"
+                android:fontFamily="@font/montserrat_medium"
+                android:gravity="center_vertical"
+                android:scrollbars="vertical"
+                android:text="@string/Dummy_text"
+                android:textSize="17sp" />
+
+
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/quotes_author"
+                android:background="@null"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:text="@string/Loading"
+                android:textStyle="bold"
+                android:fontFamily="@font/montserrat_semibold"
+                />
+
+        </LinearLayout>
+
+</androidx.cardview.widget.CardView>
+
+
+
+
+
